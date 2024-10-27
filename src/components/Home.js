@@ -11,7 +11,7 @@ const AlgoArena = () => {
   useEffect(() => {
     const fetchContests = async () => {
       try {
-        const response = await fetch('/contest/data', {
+        const response = await fetch('https://aio-contest-crawler.vercel.app/docs', {
           method: 'GET',
           headers: {
             'accept': 'application/json',
